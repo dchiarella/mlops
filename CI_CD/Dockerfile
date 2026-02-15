@@ -2,7 +2,7 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY ./CI_CD/CD/app /app
+COPY .CI_CD/CD/  /app
 
 WORKDIR /app
 RUN ls
