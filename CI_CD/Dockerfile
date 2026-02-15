@@ -2,7 +2,8 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY CI_CD/CD/ /app
+COPY CD/ /app
+
 
 WORKDIR /app
 RUN ls
